@@ -26,6 +26,8 @@ public class App
 		System.out.println("Hello World!");
 
 		// call sayHello()
-		new App().sayHello();
+		App app = new App();
+		app.sayHello();
+		app.msg("Hello World");
 	}
 }
